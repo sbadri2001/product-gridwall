@@ -1,0 +1,354 @@
+[
+  {
+    "id": "1",
+    "name": "Kinesis Mechanical Keyboard",
+    "category": "Workspace",
+    "price": 189.00,
+    "discountPrice": 149.00,
+    "rating": 4.8,
+    "reviewsCount": 124,
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "An ultra-responsive mechanical keyboard with premium hot-swappable switches, sound-dampening foam, and a solid milled aluminum housing for the ultimate acoustics.",
+    "specs": {
+      "Switches": "Linear Silent Red (Hot-swappable)",
+      "Layout": "75% ANSI layout",
+      "Connectivity": "USB-C, Bluetooth 5.1 (Up to 3 devices)",
+      "Battery Life": "Up to 200 hours (Backlight off)"
+    },
+    "tagline": "Tactile satisfaction in every keystroke.",
+    "inStock": true,
+    "isFeatured": true
+  },
+  {
+    "id": "2",
+    "name": "Solis Desk Light",
+    "category": "Lighting",
+    "price": 120.00,
+    "discountPrice": null,
+    "rating": 4.7,
+    "reviewsCount": 85,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "A smart ambient task light designed to reduce eye strain. Features fluid-motion counterweights, capacitive brightness controls, and true color-rendering LEDs.",
+    "specs": {
+      "CRI Index": "95+ CRI (True color reproduction)",
+      "Color Temp": "2700K - 6500K dynamic tuning",
+      "Max Output": "800 Lumens",
+      "Material": "Anodized Aerospace Aluminum"
+    },
+    "tagline": "Pure, flicker-free illumination.",
+    "inStock": true,
+    "isFeatured": false
+  },
+  {
+    "id": "3",
+    "name": "Aero Ergonomic Task Chair",
+    "category": "Workspace",
+    "price": 899.00,
+    "discountPrice": 799.00,
+    "rating": 4.9,
+    "reviewsCount": 312,
+    "image": "https://images.unsplash.com/photo-1505797149-43b0069ec26b?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1505797149-43b0069ec26b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1580481072645-022f9a6dbf27?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Engineered for pure physical alignment. Self-adjusting lumbar support, high-tension breathable mesh weave, and active posture tilting controls.",
+    "specs": {
+      "Mesh Type": "DuraWeave Elastomeric Mesh",
+      "Adjustments": "3D Armrests, Lumbar, Seat Depth & Tilt",
+      "Weight Capacity": "Up to 300 lbs",
+      "Base": "Reinforced polished aluminum five-star base"
+    },
+    "tagline": "Gravity-defying support all day long.",
+    "inStock": true,
+    "isFeatured": true
+  },
+  {
+    "id": "4",
+    "name": "Magna Leather Sleeve",
+    "category": "Bags",
+    "price": 95.00,
+    "discountPrice": 75.00,
+    "rating": 4.6,
+    "reviewsCount": 42,
+    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1524294892437-b64a0b4845b4?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Crafted from full-grain vegetable-tanned leather. Fits up to 16\" laptops perfectly. Soft microfiber interior lining with magnet secure enclosure.",
+    "specs": {
+      "Leather Type": "Full-grain Tuscan vegetable-tanned",
+      "Lining": "100% Recycled micro-suede",
+      "Enclosure": "Concealed rare-earth magnetic lip",
+      "Compatibility": "Fits MacBook Pro 14\" - 16\" and similar laptops"
+    },
+    "tagline": "Patina that tells your unique story.",
+    "inStock": true,
+    "isFeatured": false
+  },
+  {
+    "id": "5",
+    "name": "Sonos H1 Over-Ear Headphones",
+    "category": "Audio",
+    "price": 349.00,
+    "discountPrice": 299.00,
+    "rating": 4.8,
+    "reviewsCount": 184,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Studio-grade over-ear headphones featuring custom hybrid active noise cancellation, high-fidelity spatial audio tracking, and plush memory foam ear pads.",
+    "specs": {
+      "Driver": "40mm dynamic custom titanium-coated",
+      "ANC": "Hybrid Active Noise Cancellation (45dB depth)",
+      "Battery Life": "Up to 45 hours (ANC on)",
+      "Audio Codecs": "LDAC, AAC, aptX Adaptive, SBC"
+    },
+    "tagline": "Silence the chaos. Amplify the fidelity.",
+    "inStock": true,
+    "isFeatured": true
+  },
+  {
+    "id": "6",
+    "name": "Minimalist Desk Pad (Medium)",
+    "category": "Workspace",
+    "price": 49.00,
+    "discountPrice": null,
+    "rating": 4.5,
+    "reviewsCount": 98,
+    "image": "https://images.unsplash.com/photo-1616440347437-b1c73416efc2?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1616440347437-b1c73416efc2?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Made from sustainable merino wool felt with a cork backing. Protects your desk surface, sound-dampens your keyboard and adds tactile comfort.",
+    "specs": {
+      "Material": "80% Merino Wool, 20% Natural Cork backing",
+      "Dimensions": "80cm x 30cm (31.5\" x 11.8\")",
+      "Thickness": "4mm",
+      "Cleaning": "Spot clean with damp cloth"
+    },
+    "tagline": "An anchor for your workspace setup.",
+    "inStock": true,
+    "isFeatured": false
+  },
+  {
+    "id": "7",
+    "name": "Terra Stone Mug",
+    "category": "Lifestyle",
+    "price": 38.00,
+    "discountPrice": 32.00,
+    "rating": 4.7,
+    "reviewsCount": 63,
+    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1517256064527-09c53b2d0c6b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Double-walled ceramic mug crafted with local clay and a tactile matte stone glaze. Keeps your pour-over coffee hot while remaining cool to the touch.",
+    "specs": {
+      "Capacity": "350ml (12 oz)",
+      "Material": "Double-walled stoneware",
+      "Finish": "Textured volcanic matte exterior, gloss interior",
+      "Care": "Dishwasher & Microwave safe"
+    },
+    "tagline": "Sip mindfully, feel the texture.",
+    "inStock": true,
+    "isFeatured": false
+  },
+  {
+    "id": "8",
+    "name": "Veloce Travel Backpack",
+    "category": "Bags",
+    "price": 245.00,
+    "discountPrice": 199.00,
+    "rating": 4.8,
+    "reviewsCount": 115,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Water-resistant Cordura ballistic nylon travel pack. Built-in tech organization pockets, dual side water bottle sleeves, and custom cobalt alloy hardware.",
+    "specs": {
+      "Material": "1680D Ballistic Cordura Nylon",
+      "Capacity": "24 Liters",
+      "Hardware": "Custom heavy-duty cobalt zippers",
+      "Lpt Compartment": "Padded separate pocket (Fits up to 16\")"
+    },
+    "tagline": "Engineered for frictionless journeys.",
+    "inStock": true,
+    "isFeatured": true
+  },
+  {
+    "id": "9",
+    "name": "Chronos Desk Organizer",
+    "category": "Workspace",
+    "price": 65.00,
+    "discountPrice": null,
+    "rating": 4.4,
+    "reviewsCount": 49,
+    "image": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "An elegant desk dock made from solid white oak and aluminum dividers. Houses your smartphone (with cable routing), pens, stationery, and business cards.",
+    "specs": {
+      "Material": "FSC-certified Solid White Oak, Matte Powder Aluminum",
+      "Base": "Micro-suction pads for stability",
+      "Dimensions": "25cm x 12cm x 3cm",
+      "Routing": "Underside dual channel cable paths"
+    },
+    "tagline": "A designated home for your daily essentials.",
+    "inStock": true,
+    "isFeatured": false
+  },
+  {
+    "id": "10",
+    "name": "Aura Air Purifier Mini",
+    "category": "Lifestyle",
+    "price": 160.00,
+    "discountPrice": 139.00,
+    "rating": 4.6,
+    "reviewsCount": 77,
+    "image": "https://images.unsplash.com/photo-1585336139055-343e54129a4b?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585336139055-343e54129a4b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "A whisper-quiet air purifier featuring medical-grade HEPA filters, activated carbon for odor elimination, and built-in PM2.5 real-time pollution monitoring.",
+    "specs": {
+      "Filter Type": "H13 True HEPA Filter",
+      "Coverage": "Up to 250 sq ft (Perfect for office/bedroom)",
+      "Noise Level": "19dB - 42dB quiet mode",
+      "Power Cons.": "Only 12W on turbo"
+    },
+    "tagline": "Pure air, silent operation, clean mind.",
+    "inStock": true,
+    "isFeatured": false
+  },
+  {
+    "id": "11",
+    "name": "Iris Solid Brass Pen",
+    "category": "Workspace",
+    "price": 75.00,
+    "discountPrice": null,
+    "rating": 4.9,
+    "reviewsCount": 140,
+    "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "A heavy, satisfying writing instrument machined out of a single piece of solid C360 lead-free brass. Uses high-quality Schmidt rollerball refills.",
+    "specs": {
+      "Weight": "62g (Unposted)",
+      "Material": "Solid C360 Lead-free eco-brass",
+      "Mechanism": "Internal spring lock threaded cap",
+      "Refill": "Schmidt 5888 Rollerball (Standard international sizing)"
+    },
+    "tagline": "A lifetime heirloom tool of tactile utility.",
+    "inStock": true,
+    "isFeatured": true
+  },
+  {
+    "id": "12",
+    "name": "Vigo Leather MagSafe Wallet",
+    "category": "Lifestyle",
+    "price": 55.00,
+    "discountPrice": 45.00,
+    "rating": 4.5,
+    "reviewsCount": 51,
+    "image": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "A slim card wallet with integrated high-tension magnets for dynamic MagSafe compatibility. Hand-stitched with premium waxed thread. Stores up to 3 cards.",
+    "specs": {
+      "Magnet Force": "3500 Gauss (Industry-leading grip)",
+      "Capacity": "Holds up to 3 cards + 1 emergency bill",
+      "RFID Shield": "Built-in anti-demagnetization mesh",
+      "Material": "Horween Essex full-grain leather"
+    },
+    "tagline": "Slim. Solid. Always attached.",
+    "inStock": true,
+    "isFeatured": false
+  },
+  {
+    "id": "13",
+    "name": "Ascent Monitor Stand",
+    "category": "Workspace",
+    "price": 145.00,
+    "discountPrice": 125.00,
+    "rating": 4.7,
+    "reviewsCount": 94,
+    "image": "https://images.unsplash.com/photo-1593640495253-23196b27a87f?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593640495253-23196b27a87f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Elevate your visual display. Made of high-grade bent walnut plywood and natural cork legs. Helps bring screens to eye level to improve ergonomics.",
+    "specs": {
+      "Material": "Molded Walnut Veneer, Natural Portuguese Cork Support",
+      "Load Capacity": "Holds up to 70 lbs (Dual monitors supported)",
+      "Storage": "Under-shelf storage for keyboards up to 55cm wide",
+      "Dimensions": "115cm x 22cm x 11cm"
+    },
+    "tagline": "Ergonomic elevation with structural warmth.",
+    "inStock": true,
+    "isFeatured": true
+  },
+  {
+    "id": "14",
+    "name": "Titanium Travel Water Bottle",
+    "category": "Lifestyle",
+    "price": 110.00,
+    "discountPrice": null,
+    "rating": 4.8,
+    "reviewsCount": 41,
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "An incredibly light and durable pure grade-1 titanium thermal flask. Vacuum insulated to preserve temperature for 24 hours without any metallic aftertaste.",
+    "specs": {
+      "Material": "99.8% Grade-1 Medical Pure Titanium",
+      "Capacity": "500ml (17 oz)",
+      "Weight": "Only 145g empty",
+      "Thermal Rating": "Keep hot 12h, cold 24h"
+    },
+    "tagline": "Stronger than steel, lighter than air.",
+    "inStock": false,
+    "isFeatured": false
+  },
+  {
+    "id": "15",
+    "name": "Sync Wireless Charger Dual",
+    "category": "Lighting",
+    "price": 85.00,
+    "discountPrice": 69.00,
+    "rating": 4.6,
+    "reviewsCount": 68,
+    "image": "https://images.unsplash.com/photo-1622445262465-2481c4574875?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1622445262465-2481c4574875?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Charge your smartphone and wireless earbuds simultaneously on a premium marble base. Standard Qi certification with temperature regulation safety sensors.",
+    "specs": {
+      "Material": "Faceted Carrara Marble, Anodized Silver Aluminum",
+      "Output": "Dual 15W peak high-speed charging coils",
+      "Input": "USB-C input (Minimum 30W Power Delivery adapter recommended)",
+      "Safety": "Foreign Object Detection, over-temp cutoff"
+    },
+    "tagline": "A sculptural charger for your bedside or workspace.",
+    "inStock": true,
+    "isFeatured": false
+  }
+]

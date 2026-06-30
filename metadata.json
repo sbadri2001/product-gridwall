@@ -1,0 +1,6 @@
+{
+  "name": "Product Gridwall",
+  "description": "A high-performance product catalog with dynamic gridwall, infinite scroll, detailed drawer, real-time cart state management, and optimized React Query caching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
