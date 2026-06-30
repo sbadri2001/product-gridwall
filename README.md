@@ -4,6 +4,9 @@ Essentials.studio is a highly polished, high-fidelity e-commerce catalog applica
 
 Adhering to a minimalist Swiss-Modernist design system, the platform uses a high-contrast grayscale palette, generous negative space, strict typography scale, and fluid micro-animations to deliver a retail experience that feels tactile and editorial.
 
+<img width="861" height="864" alt="image" src="https://github.com/user-attachments/assets/99f431bd-51a6-4e22-8e16-4c6f262a91ed" />
+
+
 # 2. Core Functional Modules
 
 ## Dynamic Filtering & Search:
