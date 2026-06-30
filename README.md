@@ -1,20 +1,57 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 1. Project Overview & Concept
 
-# Run and deploy your AI Studio app
+Essentials.studio is a highly polished, high-fidelity e-commerce catalog application designed for curating premium workspace peripherals, lifestyle accessories, and creative tools.
 
-This contains everything you need to run your app locally.
+Adhering to a minimalist Swiss-Modernist design system, the platform uses a high-contrast grayscale palette, generous negative space, strict typography scale, and fluid micro-animations to deliver a retail experience that feels tactile and editorial.
 
-View your app in AI Studio: https://ai.studio/apps/3a561f40-a21a-4102-ba79-c17e32a3dd3d
+# 2. Core Functional Modules
 
-## Run Locally
+## Dynamic Filtering & Search:
 
-**Prerequisites:**  Node.js
+**Interactive Search:** Instantly filters products based on names, descriptions, categories, or technical specs.
 
+**Categorized Collections:** Real-time category-badge switching for quick browsing of product segments.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**Price Capping:** A responsive slider dynamically constraining displayed items based on real-time price limits.
+
+## Tactile Product Cards:
+
+Includes lazy-loaded images, pre-loader skeleton states, high-contrast discount badges, and a "Quick View" hover portal.
+Direct-to-cart actions with automatic validation of inventory constraints (e.g., Sold Out state).
+
+## Interactive Product Detail Drawer:
+
+**Media Gallery Picker:** Swaps between high-resolution product thumbnails seamlessly.
+
+**Technical Spec Sheet:** Structured key-value specs displaying hardware details.
+
+**Purchase Promises:** Dynamic shipping thresholds and official warranty badges.
+
+## State-Synchronized Cart Drawer:
+
+Fluid increment/decrement item controls with automatic price tallies.
+
+Progress indicator highlighting how much more is needed to reach the **Free Shipping threshold ($150.00)**.
+
+Detailed tax calculations and a custom animated mock checkout state.
+
+# 3. Architecture & Technology Stack
+
+The application is structured as a client-side Single Page Application (SPA), emphasizing fast transitions and optimal component modularity.
+
+<img width="616" height="405" alt="image" src="https://github.com/user-attachments/assets/f0f40b52-6afc-4aa5-a682-7d554a744d28" />
+
+## The Technology Stack:
+
+**Vite + React (TypeScript):** Delivers super-fast bundler response, hot module swapping, and strict type safety across all components and data structures (managed under /src/types.ts).
+
+**Tailwind CSS v4:** Applies direct utilities, responsive screens (sm:, md:, lg:), custom layout tracking, and optimized font styling.
+
+**Motion (motion/react):** Drives smooth physical layouts, drawer sliding spring physics, staggered list entries, and overlay fades.
+
+**Lucide React:** Renders lightweight, scalable line-art vector icons that perfectly align with the clean design aesthetic.
+
+# 4. Interactive Data-flow architecture 
+
+<img width="1055" height="559" alt="image" src="https://github.com/user-attachments/assets/264dbe20-5451-4e95-abe4-eb33a0376c9a" />
+
