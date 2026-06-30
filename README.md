@@ -40,19 +40,13 @@ Detailed tax calculations and a custom animated mock checkout state.
 
 # 3. Architecture & Technology Stack
 
-The application is structured as a client-side Single Page Application (SPA), emphasizing fast transitions and optimal component modularity.
+**Next.js App Router Structure:** Created the layout framework (src/app/layout.tsx) and migrated the core workspace catalog page directly into the page entry point (src/app/page.tsx).
 
-<img width="616" height="405" alt="image" src="https://github.com/user-attachments/assets/f0f40b52-6afc-4aa5-a682-7d554a744d28" />
+**Tailwind CSS v4 Integration:** Re-anchored the typography pairings and customized smooth scrollbars into the global stylesheet (src/app/globals.css) using the PostCSS pipeline for Next.js.
 
-## The Technology Stack:
+**Client Directives ("use client"):** Added explicit client directives to interactive drawers, filter panels, and product grid components to support seamless state transitions and smooth framerate spring physics.
 
-**Vite + React (TypeScript):** Delivers super-fast bundler response, hot module swapping, and strict type safety across all components and data structures (managed under /src/types.ts).
-
-**Tailwind CSS v4:** Applies direct utilities, responsive screens (sm:, md:, lg:), custom layout tracking, and optimized font styling.
-
-**Motion (motion/react):** Drives smooth physical layouts, drawer sliding spring physics, staggered list entries, and overlay fades.
-
-**Lucide React:** Renders lightweight, scalable line-art vector icons that perfectly align with the clean design aesthetic.
+**Clean Build pipeline:** Updated the package configurations to build via next build with a static export setup into dist/ to remain fully optimized for fast Cloud Run container performance.
 
 # 4. Interactive Data-flow architecture 
 
