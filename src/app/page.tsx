@@ -1,13 +1,15 @@
+"use client";
+
 import { useState, useEffect, useRef } from 'react';
 import { QueryClient, QueryClientProvider, useQuery } from '@tanstack/react-query';
 import { motion, AnimatePresence } from 'motion/react';
 import { ShoppingCart, RefreshCcw, SlidersHorizontal, ArrowDown, HelpCircle, Flame } from 'lucide-react';
 
-import { Product, CartItem, FiltersState } from './types';
-import ProductCard from './components/ProductCard';
-import ProductDetailDrawer from './components/ProductDetailDrawer';
-import CartDrawer from './components/CartDrawer';
-import Filters from './components/Filters';
+import { Product, CartItem, FiltersState } from '../types';
+import ProductCard from '../components/ProductCard';
+import ProductDetailDrawer from '../components/ProductDetailDrawer';
+import CartDrawer from '../components/CartDrawer';
+import Filters from '../components/Filters';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -22,8 +24,11 @@ function CatalogApp() {
   // --- Cart State Management (with LocalStorage persistence) ---
   const [cart, setCart] = useState<CartItem[]>(() => {
     try {
-      const savedCart = localStorage.getItem('product-gridwall-cart');
-      return savedCart ? JSON.parse(savedCart) : [];
+      if (typeof window !== 'undefined') {
+        const savedCart = localStorage.getItem('product-gridwall-cart');
+        return savedCart ? JSON.parse(savedCart) : [];
+      }
+      return [];
     } catch {
       return [];
     }
@@ -407,7 +412,7 @@ function CatalogApp() {
   );
 }
 
-export default function App() {
+export default function Home() {
   return (
     <QueryClientProvider client={queryClient}>
       <CatalogApp />

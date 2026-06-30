@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, Plus, Minus, Trash2, ShoppingCart, ShoppingBag, ArrowRight, CheckCircle2 } from 'lucide-react';

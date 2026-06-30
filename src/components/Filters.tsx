@@ -1,3 +1,5 @@
+"use client";
+
 import { Search, SlidersHorizontal, ArrowUpDown } from 'lucide-react';
 import { FiltersState } from '../types';
 
